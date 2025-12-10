@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "https://github.com/n0name-xd/reports",
+  basePath: process.env.PAGES_BASE_PATH,
 };
 
 export default nextConfig;
